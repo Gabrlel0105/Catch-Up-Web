@@ -12,6 +12,20 @@ using si730ebuu20220659.Shared.Infrastructure.Interfaces.Middleware;
 using si730ebuu20220659.Shared.Infrastructure.Persistance.EFC.Configuration;
 using si730ebuu20220659.Shared.Infrastructure.Persistance.EFC.Repositories.BaseRepository;
 
+
+
+
+using si730ebuu20220659.Observability.Application.Internal.CommandServices;
+using si730ebuu20220659.Observability.Application.Internal.OutboundServices;
+using si730ebuu20220659.Observability.Application.Internal.OutboundServices.ACL;
+using si730ebuu20220659.Observability.Domain.Repository;
+using si730ebuu20220659.Observability.Domain.Service;
+using si730ebuu20220659.Observability.Infrastructure;
+
+
+
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -78,6 +92,10 @@ builder.Services.AddScoped<IThingCommandService, ThingCommandServiceImpl>();
 builder.Services.AddScoped<IThingQueryService, ThingQueryServiceImpl>();
 
 // builder.Services.AddScoped<IContractRepository, ContractRepositoryImpl>();
+builder.Services.AddScoped<IThingStateRepository, ThingStateRepositoryImpl>();
+builder.Services.AddScoped<ThingStateCommandService, ThingStateCommandServiceImpl>();
+builder.Services.AddScoped<ExternalThingService>();
+
 // builder.Services.AddScoped<IContractCommandService, ContractCommandServiceImpl>();
 
 

@@ -7,3 +7,11 @@
     Desarrollar domain de ambos bc 
     
     Desarrollar shared.infrastructre.persistance
+    
+    desarrollar application e infrastructure
+    
+    dessarrollar interfaces 
+    
+    
+    Desarrollar program cs
+    
