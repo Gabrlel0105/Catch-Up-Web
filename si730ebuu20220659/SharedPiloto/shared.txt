@@ -1,0 +1,9 @@
+﻿Shared
+
+    Copiar Shared.Domain
+    Copiar Shared.Infrastrcutre.Interfaces.ASP
+    Copiar Shared.Infrastructure.Interfaces.Middleware
+    
+    Desarrollar domain de ambos bc 
+    
+    Desarrollar shared.infrastructre.persistance

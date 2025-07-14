@@ -7,6 +7,7 @@ public class ThingResourceFromEntityAssembler
 {
     public static ThingResource ToResourceFromEntity(Thing entity)
     {
-        return new ThingResource(entity.Id, entity.SerialNumber, entity.Model, entity.OperationMode, entity.MaximumTemperatureThreshold, entity.MinimumHumidityThreshold);
+        return new ThingResource(entity.Id, entity.SerialNumber, entity.Model, entity.OperationMode,
+            entity.MaximumTemperatureThreshold, entity.MinimumHumidityThreshold);
     }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\betitio\\RiderProjects\\si730ebuu20220659\\si730ebuu20220659\\si730ebuu20220659.csproj": {}
+    "C:\\Users\\raulm\\RiderProjects\\Catch-Up-Web\\si730ebuu20220659\\si730ebuu20220659.csproj": {}
   },
   "projects": {
-    "C:\\Users\\betitio\\RiderProjects\\si730ebuu20220659\\si730ebuu20220659\\si730ebuu20220659.csproj": {
+    "C:\\Users\\raulm\\RiderProjects\\Catch-Up-Web\\si730ebuu20220659\\si730ebuu20220659.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\betitio\\RiderProjects\\si730ebuu20220659\\si730ebuu20220659\\si730ebuu20220659.csproj",
+        "projectUniqueName": "C:\\Users\\raulm\\RiderProjects\\Catch-Up-Web\\si730ebuu20220659\\si730ebuu20220659.csproj",
         "projectName": "si730ebuu20220659",
-        "projectPath": "C:\\Users\\betitio\\RiderProjects\\si730ebuu20220659\\si730ebuu20220659\\si730ebuu20220659.csproj",
-        "packagesPath": "C:\\Users\\betitio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\betitio\\RiderProjects\\si730ebuu20220659\\si730ebuu20220659\\obj\\",
+        "projectPath": "C:\\Users\\raulm\\RiderProjects\\Catch-Up-Web\\si730ebuu20220659\\si730ebuu20220659.csproj",
+        "packagesPath": "C:\\Users\\raulm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\raulm\\RiderProjects\\Catch-Up-Web\\si730ebuu20220659\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\betitio\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\raulm\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -120,7 +120,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\betitio\\.dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\raulm\\.dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

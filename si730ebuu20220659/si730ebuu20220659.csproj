@@ -41,7 +41,6 @@
         <Folder Include="Observability\Interfaces\ACL\Services\" />
         <Folder Include="Observability\Interfaces\REST\Resources\" />
         <Folder Include="Observability\Interfaces\REST\Transform\" />
-        <Folder Include="Inventory\Interfaces\ACL\Services\" />
         <Folder Include="Profiles\Application\" />
         <Folder Include="Profiles\Domain\Model\Aggregates\" />
         <Folder Include="Profiles\Domain\Model\Commands\" />
